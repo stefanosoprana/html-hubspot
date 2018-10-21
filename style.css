@@ -1,0 +1,442 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #33475b;
+}
+
+.padding_def {
+  padding: 0 17%;
+}
+
+.fa-caret-down {
+  color: #8198b3;
+}
+
+.fa-search {
+  color: #6ebacc;
+}
+
+.container {
+  height: auto;
+  width: 100%;
+}
+
+.header.padding_def {
+  width: 100%;
+  height:70px;
+  background-color: #F5F8FA;
+  border-bottom: 1px solid #cbd6e2;
+  color: #33475b;
+  font-size: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.lang {
+  line-height: 70px;
+  float: left;
+}
+
+.lang > i {
+  margin: 0 10px;
+}
+
+.spacing {
+  line-height: 70px;
+  font-size: 20px;
+  margin: 0 20px;
+  float: left;
+  font-size: 30px;
+  color: #d7d7d7;
+}
+
+.tel_num {
+  line-height: 70px;
+  float: left;
+}
+
+.tel_num > i {
+  margin: 0 10px;
+}
+
+.sign_in {
+  float: right;
+  line-height: 69px;
+}
+
+.btn_header  {
+  padding: 9px 14px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.btn_header.sign_1  {
+  border: 1px solid #ff7a59;
+  border-radius: 5px;
+  color: #ff7a59;
+  margin: 0 5px;
+  background: white;
+}
+
+.btn_header.sign_2{
+  border-radius: 5px;
+  background: #ff7a59;
+  color: white;
+}
+
+.menu {
+  width: 100%;
+  height: 90px;
+  margin-top: 70px;
+}
+
+.logo {
+  line-height: 75px;
+  float: left;
+  margin-top: 15px
+}
+
+.item {
+  line-height: 90px;
+  float: right;
+  margin: 0 15px;
+}
+
+.item > i {
+  margin: 0 5px;
+}
+
+.learnmore_tab {
+  height: 100px;
+  background-color: #2D3E50;
+}
+
+.learnmore_text {
+  width: 60%;
+  color: white;
+  font-size: 12px;
+  margin-top: 30px;
+  float: left;
+}
+
+.learnmore_btn {
+  float: right;
+  line-height: 100px;
+}
+
+.learn_btn {
+  background: white;
+  padding: 15px 35px;
+  color: #2D3E50;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.cont_1 {
+  height: 600px;
+  background-image: linear-gradient(to right, #09A7BF, rgba(18, 182, 207, 0.55));
+  border-bottom: 5px solid #2D3E50;
+}
+
+.title_cont1 {
+  font-size: 45px;
+  font-weight: 800;
+  color: white;
+  width: 50%;
+  padding-top: 7%;
+  padding-bottom: 5%;
+}
+
+.cont_1 > p {
+  width: 50%;
+  line-height: 25px;
+  color: white
+}
+
+.cont1_btn {
+  padding: 20px 30px;
+  background: white;
+  border-radius: 4px;
+  float: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 15px;
+  color: #2D3E50;
+}
+
+.mini_paragraf {
+  font-size: 9px;
+  width: 150px;
+  color: white;
+}
+
+.cont_2 {
+  height: 1500px;
+  background-color: #F5F8FA;
+  color: #33475b;
+  padding: 0 15%;
+}
+
+.cont_2_sec_1 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.cube {
+  height: 200px;
+}
+
+.cont_2_sec_1 > h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.cont_2_sec_1 > p {
+  width: 800px;
+  text-align: center;
+  line-height: 25px;
+  margin: auto;
+}
+
+.cont_2_sec_2 {
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+  background: white;
+  padding: 30px 100px;
+  box-shadow: 0 0 11px #eaf0f6;
+  border-radius: 3px;
+}
+
+.cont_2_sec_2_logo_btn {
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  float: left;
+}
+
+.cont_2_sec_2 > img {
+  width: 200px;
+}
+
+.cont_2_sec_2_btn {
+  margin-top: 30px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.cont_2_sec_2_btn_learn {
+  color: white;
+  background: #ff7a59;
+  border-radius: 3px;
+  padding: 10px 30px;
+  font-weight: 600;
+}
+
+.cont_2_sec_2_text {
+  float: right;
+}
+
+.cont_2_sec_2_text > h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 22px;
+  margin-bottom: 17px;
+}
+
+.cont_2_sec_2_text > p {
+  width: 400px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.line_text{
+  margin-top: 18px;
+}
+
+.line {
+float: left;
+line-height: 10px;
+color: #cbd6e2;
+font-weight: 1000;
+}
+
+.line_2 {
+  float: none;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.text {
+  float: left;
+  margin-right: 30px;
+}
+
+.check_item {
+  font-size: 11px;
+  font-weight: 600;
+  float: left;
+  margin-top: 30px;
+}
+
+.check_item > i {
+  font-size: 17px;
+  color: #ff7a59;
+}
+
+.check_item_2 {
+  margin-left: 30px;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.check_item_2 > i {
+  font-size: 17px;
+  color: #ff7a59;
+  padding-right: 5px;
+}
+
+.check_item > span {
+  margin: 0 10px;
+  line-height: 30px;
+}
+
+.measures_cont_2 {
+  width: 30%;
+  float: left;
+  background: white;
+  height: 600px;
+  margin-top: 50px;
+  box-shadow: 0 0 11px #eaf0f6;
+}
+
+.cont_2_sec{
+  margin-right: 5%;
+}
+
+#margin-off{
+  margin-right: 0;
+}
+
+.cont_2_sec > img {
+  width: 130px;
+  margin-top: 25px;
+  margin-left: calc(50% - 65px);
+}
+
+.cont_2_sec > h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.cont_2_sec > p {
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.8;
+  margin: 0 20px;
+  font-weight: normal;
+}
+
+.cont_2_sec > h3 {
+  font-weight: 600;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 12px;
+
+}
+
+.cont_2_sec_lrn {
+  margin-top: 40px;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 22%;
+}
+
+.cont_2_sec_lrn_btn {
+  color: white;
+  background: #ff7a59;
+  border-radius: 3px;
+  padding: 8px 45px;
+  font-weight: normal;
+}
+
+#image_sizing1 {
+  width: 160px;
+  margin-top: 25px;
+  margin-left: calc(50% - 80px);
+}
+
+#image_sizing2 {
+  width: 120px;
+  margin-top: 25px;
+  margin-left: calc(50% - 60px);
+}
+
+.cont_3 {
+  height: 1000px;
+  background-image: linear-gradient(to right, #09A7BF,#00BDA5);
+  color: white;
+  padding-top: 10px;
+  padding: 20px 15%;
+}
+
+.cont_3 > h2 {
+  text-align: center;
+  width: 800px;
+  font-size: 32px;
+  margin: 30px auto;
+}
+
+.cont_3 > p {
+  text-align: center;
+  line-height: 1.6;
+  font-size: 17px;
+  width: 800px;
+  margin: auto;
+  margin-bottom: 175px;
+}
+
+.up {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.down {
+  padding-top: 20px;
+  border-right: 1px solid white;
+}
+.stats {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.stats > div {
+  font-size: 32px;
+  font-weight: 1000;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.stats > div > span {
+  font-weight: 200;
+}
+
+.stats > p {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+#fix_border {
+  border-right: 0;
+}
