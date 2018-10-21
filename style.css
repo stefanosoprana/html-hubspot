@@ -473,3 +473,37 @@ font-weight: 1000;
 .img_line_bottom > img {
   margin: 0 20px;
 }
+
+.photo {
+  margin-top: 15%;
+  float: left;
+}
+
+.photo_text > h2 {
+  width: 550px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.photo_text > p {
+  margin-top: 50px;
+  line-height: 1.6;
+  width: 50%;
+}
+
+.photo_btn {
+  padding: 20px 30px;
+  background: #ff7a59;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  width: 200px;
+  border-radius: 4px;
+  margin: 50px 0;
+}
+
+.small_p {
+  font-size: 10px;
+  margin: auto;
+  float: left;
+}
